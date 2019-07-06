@@ -6,6 +6,6 @@ Description:
 
 Hope to Learn: 
     How to committ multiple files/branches.
-    
+
 Email:
-    @katiemaebain@gmail.com 
+    katie_mae_bain_gmail.com 
