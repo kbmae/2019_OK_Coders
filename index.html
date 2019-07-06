@@ -48,10 +48,12 @@
         document.write("<br/>");
         var age = prompt("User's Age?");
         var name = prompt("User's Name?");
-         if(age > 55){
+         if(age > 55) {
             document.write("User is Old");
-         } else {
+         } else if(age < 25) {
              document.write("User is Young");
+         } else {
+            document.write("User is Just Right");
          }
         
 
