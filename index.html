@@ -62,14 +62,26 @@
          // age > 25 && age < 55
 
          /* For and While Loops */
-         document.write("<br/>");
-         var number = prompt("Count to what?");
-         while(number < 100){
-            number++;
-            document.write("Number " + number + "<br/>");
+        //  document.write("<br/>");
+        //  var number = prompt("Count to what?");
+        //  while(number < 100){
+        //     number++;
+        //     document.write("Number " + number + "<br/>");
+        //  }
+
+         /* Print 99 Bottles of Beer on the Wall Lyrics within the code */
+         document.write("<br/");
+        // BAD document.write("Song Lyrics: " + "<a href='http://www.99-bottles-of-beer.net/lyrics.html'>99 Bottles</a>");
+        // 99 bottles of beer on the wall, 99 bottles of beer.
+        // Take one down and pass it around, 98 bottles of beer on the wall.
+        document.write("<br/>");
+         //var number = prompt("Count to what?");
+         var number = 99;
+         while(number > 0){
+            document.write( number + " bottles of beer on the wall, " + number + " bottles of beer." + "<br/>" + "Take one down and pass it around, " + (number - 1) + " bottles of beer on the wall.");
+            number--;
          }
-
-
+         
         </script>
 </body>
 <!--Git = Version Control System
